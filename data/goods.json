@@ -1,0 +1,172 @@
+{
+    "goods": [
+        {
+            "inprice": "2",
+            "name": "百事可乐",
+            "number": 1,
+            "outprice": "3",
+            "quantity": "22",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "3",
+            "name": "安慕希",
+            "number": 2,
+            "outprice": "4",
+            "quantity": "26",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "7",
+            "name": "百威啤酒",
+            "number": 3,
+            "outprice": "10",
+            "quantity": "10",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "4",
+            "name": "老坛酸菜",
+            "number": 4,
+            "outprice": "5",
+            "quantity": "26",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "1",
+            "name": "口香糖",
+            "number": 5,
+            "outprice": "2",
+            "quantity": "13",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "6",
+            "name": "海天酱油",
+            "number": 6,
+            "outprice": "8",
+            "quantity": "26",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "3",
+            "name": "晨光笔",
+            "number": 7,
+            "outprice": "4",
+            "quantity": "28",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "4",
+            "name": "卫龙辣条",
+            "number": 8,
+            "outprice": "8",
+            "quantity": "28",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "3",
+            "name": "洽洽瓜子",
+            "number": 9,
+            "outprice": "5",
+            "quantity": "28",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "2",
+            "name": "怡宝",
+            "number": 10,
+            "outprice": "3",
+            "quantity": "28",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "3",
+            "name": "纯牛奶",
+            "number": 11,
+            "outprice": "4",
+            "quantity": "27",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "2",
+            "name": "冰红茶",
+            "number": 12,
+            "outprice": "3",
+            "quantity": "26",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "9",
+            "name": "无穷鸡腿",
+            "number": 13,
+            "outprice": "12",
+            "quantity": "27",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "4",
+            "name": "桃李面包",
+            "number": 14,
+            "outprice": "5",
+            "quantity": "26",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "25",
+            "name": "天堂雨伞",
+            "number": 15,
+            "outprice": "30",
+            "quantity": "28",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "8",
+            "name": "黑人牙刷",
+            "number": 16,
+            "outprice": "10",
+            "quantity": "28",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "65",
+            "name": "中华香烟",
+            "number": 17,
+            "outprice": "70",
+            "quantity": "27",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "15",
+            "name": "双喜香烟",
+            "number": 18,
+            "outprice": "17",
+            "quantity": "27",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "85",
+            "name": "茅台白酒",
+            "number": 19,
+            "outprice": "150",
+            "quantity": "13",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "15",
+            "name": "插排",
+            "number": 20,
+            "outprice": "20",
+            "quantity": "27",
+            "up_time": "2022-05-17"
+        },
+        {
+            "inprice": "2",
+            "name": "可口可乐",
+            "number": 21,
+            "outprice": "3",
+            "quantity": "28",
+            "up_time": "2022-05-17"
+        }
+    ]
+}

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RootWindow</class>
+ <widget class="QMainWindow" name="RootWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>管理员操作中心</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../image/image.qrc">
+    <normaloff>:/logo.png</normaloff>:/logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>70</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 30px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 2px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 2px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom:2px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 2px solid #3ebaba;
+
+background: aqua; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string>管 理 员 操 作 中 心</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="userButton">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>180</y>
+      <width>121</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton { /* 按钮美化 */
+ width: 50px; /* 宽度 */
+ height: 50px; /* 高度 */
+ border-width: 5px; /* 边框宽度 */
+ border-radius: 60px; /* 边框半径 */
+ border-style: outset; 
+ border-color:#00aaff;
+ background: aqua; /* 背景颜色 1E90FF*/
+ color: black; /* 字体颜色 */
+
+}
+QPushButton:hover { /*5599FF 鼠标移入按钮范围时改变颜色 */
+ background: #00d9d9;
+ border-style: inset;
+ color: black; /* 字体颜色 */
+}</string>
+    </property>
+    <property name="text">
+     <string>员工管理</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="goodsButton">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>180</y>
+      <width>121</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton { /* 按钮美化 */
+ width: 50px; /* 宽度 */
+ height: 50px; /* 高度 */
+ border-width: 5px; /* 边框宽度 */
+ border-radius: 60px; /* 边框半径 */
+ border-style: outset; 
+ border-color:#00aaff;
+ background: aqua; /* 背景颜色 1E90FF*/
+ color: black; /* 字体颜色 */
+
+}
+QPushButton:hover { /*5599FF 鼠标移入按钮范围时改变颜色 */
+ background: #00d9d9;
+ border-style: inset;
+ color: black; /* 字体颜色 */
+}</string>
+    </property>
+    <property name="text">
+     <string>商品管理</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="userlabel">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>0</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 20px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 2px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 2px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 2px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 2px solid aqua;
+
+background:transparent; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timelabel">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>0</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 20px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 2px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 2px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 2px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 2px solid aqua;
+
+background:transparent; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>380</y>
+      <width>231</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>注：点击右上角&quot;x&quot;可以返回上一界面</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../image/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

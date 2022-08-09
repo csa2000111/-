@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo.png</file>
+        <file>close_eyes.png</file>
+        <file>open_eyes.png</file>
+        <file>business_card.png</file>
+        <file>delete.png</file>
+        <file>modify.png</file>
+        <file>add_user.png</file>
+        <file>loginbackground.png</file>
+        <file>logo.ico</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWindow</class>
+ <widget class="QMainWindow" name="LoginWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>超市管理系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../image/image.qrc">
+    <normaloff>:/logo.png</normaloff>:/logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">.LoginWindow{
+background-image: url(:/loginbackground.png);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>40</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 30px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 5px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 5px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 4px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 4px solid aqua;
+
+background: #a7a7fa; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+background-color: rgb(167, 167, 250);</string>
+    </property>
+    <property name="text">
+     <string>超 市 管 理 系 统</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>40</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="userEdit">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>150</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 5px; /* 边框宽度 */
+border-radius: 10px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 2px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: green;
+border-right: 3px solid green;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 2px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 3px solid aqua;</string>
+    </property>
+    <property name="placeholderText">
+     <string>请输入用户名</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passwordEdit">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>200</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 5px; /* 边框宽度 */
+border-radius: 10px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 2px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: green;
+border-right: 3px solid green;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 2px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 3px solid aqua;</string>
+    </property>
+    <property name="maxLength">
+     <number>6</number>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>请输入密码</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>150</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 5px; /* 边框宽度 */
+border-radius: 10px; /* 边框半径 */
+background: #a7a7fa; /* 背景颜色 1E90FF*/
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 2px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: green;
+border-right: 3px solid green;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 2px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 3px solid aqua;</string>
+    </property>
+    <property name="text">
+     <string>用户名</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>200</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 5px; /* 边框宽度 */
+border-radius: 10px; /* 边框半径 */
+background: #a7a7fa; /* 背景颜色 1E90FF*/
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 2px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: green;
+border-right: 3px solid green;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 2px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 3px solid aqua;</string>
+    </property>
+    <property name="text">
+     <string>密 码</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="passwordButton">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>200</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rootButton">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>250</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton { /* 按钮美化 */
+ width: 50px; /* 宽度 */
+ height: 50px; /* 高度 */
+ border-width: 5px; /* 边框宽度 */
+ border-radius: 20px; /* 边框半径 */
+ border-style: outset; 
+ border-color:#00aaff;
+ background: #a7a7fa; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: black; /* 字体颜色 */
+ font-size: 15px; /* 字体大小 */
+}
+QPushButton:hover { /*5599FF 鼠标移入按钮范围时改变颜色 */
+ background: aqua;
+ border-style: inset;
+ color: black; /* 字体颜色 */
+}</string>
+    </property>
+    <property name="text">
+     <string>管理员登录</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="userButton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>250</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton { /* 按钮美化 */
+ width: 50px; /* 宽度 */
+ height: 50px; /* 高度 */
+ border-width: 5px; /* 边框宽度 */
+ border-radius: 20px; /* 边框半径 */
+ border-style: outset; 
+ border-color:#00aaff;
+ background: #a7a7fa; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: black; /* 字体颜色 */
+ font-size: 15px; /* 字体大小 */
+}
+QPushButton:hover { /*5599FF 鼠标移入按钮范围时改变颜色 */
+ background: aqua;
+ border-style: inset;
+ color: black; /* 字体颜色 */
+}</string>
+    </property>
+    <property name="text">
+     <string>员工登录</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../image/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

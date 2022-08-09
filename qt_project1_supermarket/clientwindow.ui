@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>clientWindow</class>
+ <widget class="QMainWindow" name="clientWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>前台操作中心</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../image/image.qrc">
+    <normaloff>:/logo.png</normaloff>:/logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="userlabel">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 15px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 2px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 2px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 2px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 2px solid aqua;
+
+background:transparent; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string>当前账号：</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="settleButton">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>180</y>
+      <width>131</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton { /* 按钮美化 */
+ width: 50px; /* 宽度 */
+ height: 50px; /* 高度 */
+ border-width: 5px; /* 边框宽度 */
+ border-radius: 65px; /* 边框半径 */
+ border-style: outset; 
+ border-color:#00aaff;
+ background: aqua; /* 背景颜色 1E90FF*/
+ color: black; /* 字体颜色 */
+
+}
+QPushButton:hover { /*5599FF 鼠标移入按钮范围时改变颜色 */
+ background: #00d9d9;
+ border-style: inset;
+ color: black; /* 字体颜色 */
+}</string>
+    </property>
+    <property name="text">
+     <string>订单结算</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timelabel">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>10</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 15px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 2px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 2px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 2px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 2px solid aqua;
+
+background:transparent; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="enquireButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>180</y>
+      <width>131</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton { /* 按钮美化 */
+ width: 50px; /* 宽度 */
+ height: 50px; /* 高度 */
+ border-width: 5px; /* 边框宽度 */
+ border-radius: 65px; /* 边框半径 */
+ border-style: outset; 
+ border-color:#00aaff;
+ background: aqua; /* 背景颜色 1E90FF*/
+ color: black; /* 字体颜色 */
+
+}
+QPushButton:hover { /*5599FF 鼠标移入按钮范围时改变颜色 */
+ background: #00d9d9;
+ border-style: inset;
+ color: black; /* 字体颜色 */
+}</string>
+    </property>
+    <property name="text">
+     <string>货物查询</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>70</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 30px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 2px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 2px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom:2px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 2px solid #3ebaba;
+
+background: aqua; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string>前 台 操 作 中 心</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>380</y>
+      <width>231</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>注：点击右上角&quot;x&quot;可以返回上一界面</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../image/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

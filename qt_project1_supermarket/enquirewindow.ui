@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>enquireWindow</class>
+ <widget class="QMainWindow" name="enquireWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>货物查询</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../image/image.qrc">
+    <normaloff>:/logo.png</normaloff>:/logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>0</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 15px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 2px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 2px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom:2px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 2px solid #3ebaba;
+
+background: aqua; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string>货 物 查 询</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>551</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background:transparent; /* 背景颜色 1E90FF*/</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 20px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 1px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 1px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 1px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 1px solid aqua;
+
+background:transparent; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string>序号</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>50</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 20px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 1px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 1px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 1px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 1px solid aqua;
+
+background:transparent; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string>商品名称</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>50</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 20px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 1px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 1px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 1px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 1px solid aqua;
+
+background:transparent; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string>库存总量</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>50</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 20px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 1px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 1px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 1px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 1px solid aqua;
+
+background:transparent; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string>进货价</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>50</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 20px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 1px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 1px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 1px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 1px solid aqua;
+
+background:transparent; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string>总额</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>50</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 15px; /* 边框宽度 */
+border-radius: 20px; /* 边框半径 */
+
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: red;
+border-top: 1px solid red;
+ 
+border-right-style: solid;
+border-right-width: 3px;
+border-right-color: #55ff7f;
+border-right: 1px solid #55ff7f;
+ 
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: blue;
+border-bottom: 1px solid blue;
+ 
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: aqua;
+border-left: 1px solid aqua;
+
+background:transparent; /* 背景颜色 1E90FF*/
+ font-family: 楷体; /* 设置字体 */
+ color: write; /* 字体颜色 */
+</string>
+    </property>
+    <property name="text">
+     <string>更新时间</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>380</y>
+      <width>231</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>注：点击右上角&quot;x&quot;可以返回上一界面</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../image/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

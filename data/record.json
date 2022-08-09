@@ -1,0 +1,228 @@
+{
+    "record": [
+        {
+            "money": "20",
+            "name": "root",
+            "number": 10,
+            "shoppingname": "百事可乐",
+            "type": "支出",
+            "up_time": "2022-05-15"
+        },
+        {
+            "money": "84",
+            "name": "root",
+            "number": 12,
+            "shoppingname": "百威啤酒",
+            "type": "支出",
+            "up_time": "2022-05-16"
+        },
+        {
+            "money": "180",
+            "name": "root",
+            "number": 12,
+            "shoppingname": "插排",
+            "type": "支出",
+            "up_time": "2022-05-16"
+        },
+        {
+            "money": "30",
+            "name": "陈胜安",
+            "number": 10,
+            "shoppingname": "洽洽瓜子",
+            "type": "支出",
+            "up_time": "2022-05-16"
+        },
+        {
+            "money": "5",
+            "name": "root",
+            "number": 5,
+            "shoppingname": "口香糖",
+            "type": "支出",
+            "up_time": "2022-05-16"
+        },
+        {
+            "money": "100",
+            "name": "陈胜安",
+            "number": 50,
+            "shoppingname": "可口可乐",
+            "type": "支出",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "3",
+            "name": "csa",
+            "number": 1,
+            "shoppingname": "百事可乐",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "9",
+            "name": "csa",
+            "number": 3,
+            "shoppingname": "可口可乐",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "3",
+            "name": "csa",
+            "number": 1,
+            "shoppingname": "百事可乐",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "40",
+            "name": "陈胜安",
+            "number": 20,
+            "shoppingname": "百事可乐",
+            "type": "支出",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "8",
+            "name": "lisi",
+            "number": 1,
+            "shoppingname": "海天酱油",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "6",
+            "name": "lisi",
+            "number": 2,
+            "shoppingname": "可口可乐",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "6",
+            "name": "csa",
+            "number": 2,
+            "shoppingname": "百事可乐",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "6",
+            "name": "csa",
+            "number": 2,
+            "shoppingname": "冰红茶",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "20",
+            "name": "csa",
+            "number": 1,
+            "shoppingname": "插排",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "70",
+            "name": "csa",
+            "number": 1,
+            "shoppingname": "中华香烟",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "425",
+            "name": "root",
+            "number": 5,
+            "shoppingname": "茅台白酒",
+            "type": "支出",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "3000",
+            "name": "csa",
+            "number": 20,
+            "shoppingname": "茅台白酒",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "6",
+            "name": "csa",
+            "number": 2,
+            "shoppingname": "百事可乐",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "10",
+            "name": "zhang3",
+            "number": 2,
+            "shoppingname": "老坛酸菜",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "10",
+            "name": "zhang3",
+            "number": 1,
+            "shoppingname": "百威啤酒",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "16",
+            "name": "zhang3",
+            "number": 2,
+            "shoppingname": "海天酱油",
+            "type": "收入",
+            "up_time": "2022-05-17"
+        },
+        {
+            "money": "6",
+            "name": "茶",
+            "number": 2,
+            "shoppingname": "百事可乐",
+            "type": "收入",
+            "up_time": "2022-05-18"
+        },
+        {
+            "money": "4",
+            "name": "茶",
+            "number": 1,
+            "shoppingname": "纯牛奶",
+            "type": "收入",
+            "up_time": "2022-05-18"
+        },
+        {
+            "money": "12",
+            "name": "茶",
+            "number": 1,
+            "shoppingname": "无穷鸡腿",
+            "type": "收入",
+            "up_time": "2022-05-18"
+        },
+        {
+            "money": "10",
+            "name": "茶",
+            "number": 2,
+            "shoppingname": "桃李面包",
+            "type": "收入",
+            "up_time": "2022-05-18"
+        },
+        {
+            "money": "17",
+            "name": "茶",
+            "number": 1,
+            "shoppingname": "双喜香烟",
+            "type": "收入",
+            "up_time": "2022-05-18"
+        },
+        {
+            "money": "8",
+            "name": "csa",
+            "number": 2,
+            "shoppingname": "安慕希",
+            "type": "收入",
+            "up_time": "2022-05-18"
+        }
+    ]
+}
